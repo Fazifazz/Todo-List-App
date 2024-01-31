@@ -81,6 +81,7 @@ function App() {
           })}
         </div>
       </div>
+     <button onClick={()=>setTodos([])}>Clear All</button>
     </div>
   );
 }
