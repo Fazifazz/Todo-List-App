@@ -4,10 +4,7 @@ import "./App.css";
 function App() {
   const [todos, setTodos] = useState([]);
   const [todo, setTudo] = useState("");
-  const handleDelete = (id) => {
-    const updatedTodos = todos.filter((item) => item.id !== id);
-    setTodos(updatedTodos);
-  };
+
   return (
     <div className="app">
       <div className="mainHeading">
